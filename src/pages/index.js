@@ -15,6 +15,7 @@ import Footer from 'src/parts/Footer'
 
 
 const Home = ({data}) => {
+  console.log('data', data)
   return (
     <>
       <Head>

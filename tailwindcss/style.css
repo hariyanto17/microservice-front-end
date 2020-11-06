@@ -123,6 +123,11 @@
   perspective: 10000px;
 }
 
+.item figure.item-image img{
+ height: 150px;
+ width: auto;
+}
+
 .item figure.item-image:before {
   content: "";
   @apply .absolute .inset-0 .bg-indigo-900 .opacity-0 .transition-all .duration-200;

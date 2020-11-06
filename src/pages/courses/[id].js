@@ -21,7 +21,7 @@ import CoursePhoto from 'src/parts/Details/CoursePhoto'
 
 
 const DetailsCourse = ({data}) => {
-    console.log(data)
+    console.log("data",data)
 
     const footer =useRef(null);
 
